@@ -25,7 +25,9 @@ class ViewController: UIViewController {
 
     
     @IBAction func addFunction(_ sender: Any) {
-        result.text = number
+        let test = 
+        let test = Double(input1.text)+Double(input2.text);
+        result = String(test);
         
         
     }
