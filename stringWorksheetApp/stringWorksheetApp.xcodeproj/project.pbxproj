@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CB9B8A28CA27E1009F5413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9B8928CA27E1009F5413 /* AppDelegate.swift */; };
+		26CB9B8C28CA27E1009F5413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9B8B28CA27E1009F5413 /* SceneDelegate.swift */; };
+		26CB9B8E28CA27E1009F5413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9B8D28CA27E1009F5413 /* ViewController.swift */; };
+		26CB9B9128CA27E1009F5413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB9B8F28CA27E1009F5413 /* Main.storyboard */; };
+		26CB9B9328CA27E2009F5413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CB9B9228CA27E2009F5413 /* Assets.xcassets */; };
+		26CB9B9628CA27E2009F5413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB9B9428CA27E2009F5413 /* LaunchScreen.storyboard */; };
+		26CB9BA128CA27E3009F5413 /* stringWorksheetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9BA028CA27E3009F5413 /* stringWorksheetAppTests.swift */; };
+		26CB9BAB28CA27E3009F5413 /* stringWorksheetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9BAA28CA27E3009F5413 /* stringWorksheetAppUITests.swift */; };
+		26CB9BAD28CA27E3009F5413 /* stringWorksheetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB9BAC28CA27E3009F5413 /* stringWorksheetAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26CB9B9D28CA27E3009F5413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB9B7E28CA27E1009F5413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB9B8528CA27E1009F5413;
+			remoteInfo = stringWorksheetApp;
+		};
+		26CB9BA728CA27E3009F5413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB9B7E28CA27E1009F5413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB9B8528CA27E1009F5413;
+			remoteInfo = stringWorksheetApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CB9B8628CA27E1009F5413 /* stringWorksheetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stringWorksheetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB9B8928CA27E1009F5413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26CB9B8B28CA27E1009F5413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26CB9B8D28CA27E1009F5413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26CB9B9028CA27E1009F5413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26CB9B9228CA27E2009F5413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26CB9B9528CA27E2009F5413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26CB9B9728CA27E2009F5413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB9B9C28CA27E3009F5413 /* stringWorksheetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stringWorksheetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB9BA028CA27E3009F5413 /* stringWorksheetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringWorksheetAppTests.swift; sourceTree = "<group>"; };
+		26CB9BA628CA27E3009F5413 /* stringWorksheetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stringWorksheetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB9BAA28CA27E3009F5413 /* stringWorksheetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringWorksheetAppUITests.swift; sourceTree = "<group>"; };
+		26CB9BAC28CA27E3009F5413 /* stringWorksheetAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringWorksheetAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CB9B8328CA27E1009F5413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9B9928CA27E3009F5413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9BA328CA27E3009F5413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CB9B7D28CA27E1009F5413 = {
+			isa = PBXGroup;
+			children = (
+				26CB9B8828CA27E1009F5413 /* stringWorksheetApp */,
+				26CB9B9F28CA27E3009F5413 /* stringWorksheetAppTests */,
+				26CB9BA928CA27E3009F5413 /* stringWorksheetAppUITests */,
+				26CB9B8728CA27E1009F5413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26CB9B8728CA27E1009F5413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CB9B8628CA27E1009F5413 /* stringWorksheetApp.app */,
+				26CB9B9C28CA27E3009F5413 /* stringWorksheetAppTests.xctest */,
+				26CB9BA628CA27E3009F5413 /* stringWorksheetAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CB9B8828CA27E1009F5413 /* stringWorksheetApp */ = {
+			isa = PBXGroup;
+			children = (
+				26CB9B8928CA27E1009F5413 /* AppDelegate.swift */,
+				26CB9B8B28CA27E1009F5413 /* SceneDelegate.swift */,
+				26CB9B8D28CA27E1009F5413 /* ViewController.swift */,
+				26CB9B8F28CA27E1009F5413 /* Main.storyboard */,
+				26CB9B9228CA27E2009F5413 /* Assets.xcassets */,
+				26CB9B9428CA27E2009F5413 /* LaunchScreen.storyboard */,
+				26CB9B9728CA27E2009F5413 /* Info.plist */,
+			);
+			path = stringWorksheetApp;
+			sourceTree = "<group>";
+		};
+		26CB9B9F28CA27E3009F5413 /* stringWorksheetAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB9BA028CA27E3009F5413 /* stringWorksheetAppTests.swift */,
+			);
+			path = stringWorksheetAppTests;
+			sourceTree = "<group>";
+		};
+		26CB9BA928CA27E3009F5413 /* stringWorksheetAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB9BAA28CA27E3009F5413 /* stringWorksheetAppUITests.swift */,
+				26CB9BAC28CA27E3009F5413 /* stringWorksheetAppUITestsLaunchTests.swift */,
+			);
+			path = stringWorksheetAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26CB9B8528CA27E1009F5413 /* stringWorksheetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB9BB028CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetApp" */;
+			buildPhases = (
+				26CB9B8228CA27E1009F5413 /* Sources */,
+				26CB9B8328CA27E1009F5413 /* Frameworks */,
+				26CB9B8428CA27E1009F5413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stringWorksheetApp;
+			productName = stringWorksheetApp;
+			productReference = 26CB9B8628CA27E1009F5413 /* stringWorksheetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26CB9B9B28CA27E3009F5413 /* stringWorksheetAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB9BB328CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetAppTests" */;
+			buildPhases = (
+				26CB9B9828CA27E3009F5413 /* Sources */,
+				26CB9B9928CA27E3009F5413 /* Frameworks */,
+				26CB9B9A28CA27E3009F5413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB9B9E28CA27E3009F5413 /* PBXTargetDependency */,
+			);
+			name = stringWorksheetAppTests;
+			productName = stringWorksheetAppTests;
+			productReference = 26CB9B9C28CA27E3009F5413 /* stringWorksheetAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26CB9BA528CA27E3009F5413 /* stringWorksheetAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB9BB628CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetAppUITests" */;
+			buildPhases = (
+				26CB9BA228CA27E3009F5413 /* Sources */,
+				26CB9BA328CA27E3009F5413 /* Frameworks */,
+				26CB9BA428CA27E3009F5413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB9BA828CA27E3009F5413 /* PBXTargetDependency */,
+			);
+			name = stringWorksheetAppUITests;
+			productName = stringWorksheetAppUITests;
+			productReference = 26CB9BA628CA27E3009F5413 /* stringWorksheetAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CB9B7E28CA27E1009F5413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					26CB9B8528CA27E1009F5413 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					26CB9B9B28CA27E3009F5413 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 26CB9B8528CA27E1009F5413;
+					};
+					26CB9BA528CA27E3009F5413 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 26CB9B8528CA27E1009F5413;
+					};
+				};
+			};
+			buildConfigurationList = 26CB9B8128CA27E1009F5413 /* Build configuration list for PBXProject "stringWorksheetApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26CB9B7D28CA27E1009F5413;
+			productRefGroup = 26CB9B8728CA27E1009F5413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CB9B8528CA27E1009F5413 /* stringWorksheetApp */,
+				26CB9B9B28CA27E3009F5413 /* stringWorksheetAppTests */,
+				26CB9BA528CA27E3009F5413 /* stringWorksheetAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CB9B8428CA27E1009F5413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB9B9628CA27E2009F5413 /* LaunchScreen.storyboard in Resources */,
+				26CB9B9328CA27E2009F5413 /* Assets.xcassets in Resources */,
+				26CB9B9128CA27E1009F5413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9B9A28CA27E3009F5413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9BA428CA27E3009F5413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CB9B8228CA27E1009F5413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB9B8E28CA27E1009F5413 /* ViewController.swift in Sources */,
+				26CB9B8A28CA27E1009F5413 /* AppDelegate.swift in Sources */,
+				26CB9B8C28CA27E1009F5413 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9B9828CA27E3009F5413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB9BA128CA27E3009F5413 /* stringWorksheetAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB9BA228CA27E3009F5413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB9BAD28CA27E3009F5413 /* stringWorksheetAppUITestsLaunchTests.swift in Sources */,
+				26CB9BAB28CA27E3009F5413 /* stringWorksheetAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26CB9B9E28CA27E3009F5413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB9B8528CA27E1009F5413 /* stringWorksheetApp */;
+			targetProxy = 26CB9B9D28CA27E3009F5413 /* PBXContainerItemProxy */;
+		};
+		26CB9BA828CA27E3009F5413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB9B8528CA27E1009F5413 /* stringWorksheetApp */;
+			targetProxy = 26CB9BA728CA27E3009F5413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26CB9B8F28CA27E1009F5413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB9B9028CA27E1009F5413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26CB9B9428CA27E2009F5413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB9B9528CA27E2009F5413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26CB9BAE28CA27E3009F5413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26CB9BAF28CA27E3009F5413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26CB9BB128CA27E3009F5413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stringWorksheetApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = stringWorksheetApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26CB9BB228CA27E3009F5413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stringWorksheetApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = stringWorksheetApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26CB9BB428CA27E3009F5413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stringWorksheetApp.app/stringWorksheetApp";
+			};
+			name = Debug;
+		};
+		26CB9BB528CA27E3009F5413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stringWorksheetApp.app/stringWorksheetApp";
+			};
+			name = Release;
+		};
+		26CB9BB728CA27E3009F5413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stringWorksheetApp;
+			};
+			name = Debug;
+		};
+		26CB9BB828CA27E3009F5413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.stringWorksheetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stringWorksheetApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CB9B8128CA27E1009F5413 /* Build configuration list for PBXProject "stringWorksheetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB9BAE28CA27E3009F5413 /* Debug */,
+				26CB9BAF28CA27E3009F5413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB9BB028CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB9BB128CA27E3009F5413 /* Debug */,
+				26CB9BB228CA27E3009F5413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB9BB328CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB9BB428CA27E3009F5413 /* Debug */,
+				26CB9BB528CA27E3009F5413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB9BB628CA27E3009F5413 /* Build configuration list for PBXNativeTarget "stringWorksheetAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB9BB728CA27E3009F5413 /* Debug */,
+				26CB9BB828CA27E3009F5413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26CB9B7E28CA27E1009F5413 /* Project object */;
+}
