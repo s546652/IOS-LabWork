@@ -39,10 +39,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func onClickOfSubmit(_ sender: UIButton) {
-        fullNameLabel.text = "Full Name: \(lastNameOutlet.text!),\(firstNameOutlet.text!)"
+        fullNameLabel.text = "Full Name: \(lastNameOutlet.text!), \(firstNameOutlet.text!)"
         
        
-        initialsLabel.text = "Initials :\(String(firstNameOutlet.text!.prefix(1))+String(lastNameOutlet.text!.prefix(1)))"
+        initialsLabel.text = "Initials :\(String(firstNameOutlet.text!.prefix(1)).uppercased()+String(lastNameOutlet.text!.prefix(1)).uppercased())"
         
         Details.text = "Details"
         
