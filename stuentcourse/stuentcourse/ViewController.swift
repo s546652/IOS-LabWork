@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+       
     }
     
     
@@ -44,15 +45,15 @@ class ViewController: UIViewController {
                 isStudent = false
             }
         }
-        
+        performSegue(withIdentifier: "studentDetailsSegue", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destintation = segue.identifier
+        var  destintation = segue.identifier
         if destintation == "studentDetailsSegue" {
-            let d = segue.destination as! StudentViewController
+            var d = segue.destination as! StudentViewController
             print("inside student perpare")
-            d.studentId = studentFound.sid
+            d.studentId = sId
             d.studentemail =  studentFound.email
             d.studentName = studentFound.name
             print(d.studentId)

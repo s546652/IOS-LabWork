@@ -13,11 +13,23 @@ class StudentViewController: UIViewController {
     var studentId = ""
     
     @IBOutlet weak var studentDetailsOutlet: UILabel!
+    
+    @IBOutlet weak var test: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("test")
-        studentDetailsOutlet.text = studentemail+studentId+studentName
+        print("test 123")
+        print(studentemail)
+        print(studentId)
+        print("pigggg")
+        print(studentemail)
+        studentDetailsOutlet.text = studentDetailsOutlet.text! + "\(studentemail)"
+        print(studentDetailsOutlet.text!)
         
+        test.text = studentemail
+        
+        print("mental")
+        print(test)
         // Do any additional setup after loading the view.
     }
     
