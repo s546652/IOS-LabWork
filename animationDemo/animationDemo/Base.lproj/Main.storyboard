@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hello" translatesAutoresizingMaskIntoConstraints="NO" id="JMY-81-1kM">
+                                <rect key="frame" x="87" y="208" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="0Cd-su-6uw"/>
+                                    <constraint firstAttribute="width" constant="240" id="H5l-uG-8zf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icw-ho-hbf">
+                                <rect key="frame" x="157" y="427" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JPM-vd-7Lo"/>
+                                    <constraint firstAttribute="height" constant="31" id="UBR-vj-rAm"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sad"/>
+                                <connections>
+                                    <action selector="sadBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VxN-j0-kjO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-cs-O5G">
+                                <rect key="frame" x="157" y="488" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="CCA-Bx-zsG"/>
+                                    <constraint firstAttribute="height" constant="31" id="pCc-z5-F43"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Anrgy"/>
+                                <connections>
+                                    <action selector="angryBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xCH-Nq-qba"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-Rz-zbX">
+                                <rect key="frame" x="157" y="549" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="RgL-Fa-Duz"/>
+                                    <constraint firstAttribute="height" constant="31" id="uly-kL-air"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Shake Me"/>
+                                <connections>
+                                    <action selector="shakeMeBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wv8-2K-RQz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJ4-se-ajd">
+                                <rect key="frame" x="157" y="610" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="L82-90-9m9"/>
+                                    <constraint firstAttribute="width" constant="100" id="jR0-MV-VN1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show"/>
+                                <connections>
+                                    <action selector="showBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tYT-Vj-P1f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80I-x3-KRE">
+                                <rect key="frame" x="157" y="373" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="dLr-QE-1uk"/>
+                                    <constraint firstAttribute="width" constant="100" id="qTS-Zy-wHL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Happy"/>
+                                <connections>
+                                    <action selector="happyBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sah-b2-auT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="80I-x3-KRE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3HM-0z-6s5"/>
+                            <constraint firstItem="Icw-ho-hbf" firstAttribute="top" secondItem="80I-x3-KRE" secondAttribute="bottom" constant="30" id="7zn-CI-Ysb"/>
+                            <constraint firstItem="A3e-cs-O5G" firstAttribute="top" secondItem="Icw-ho-hbf" secondAttribute="bottom" constant="30" id="Cbi-Bz-d32"/>
+                            <constraint firstItem="JMY-81-1kM" firstAttribute="centerX" secondItem="80I-x3-KRE" secondAttribute="centerX" id="D1j-w4-KYW"/>
+                            <constraint firstItem="A3e-cs-O5G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IaC-a6-zCx"/>
+                            <constraint firstItem="3wu-Rz-zbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cSS-sa-6lm"/>
+                            <constraint firstItem="3wu-Rz-zbX" firstAttribute="top" secondItem="A3e-cs-O5G" secondAttribute="bottom" constant="30" id="gvZ-9l-H1R"/>
+                            <constraint firstItem="Icw-ho-hbf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iZF-bR-N7T"/>
+                            <constraint firstItem="JMY-81-1kM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="164" id="jX4-d4-yWg"/>
+                            <constraint firstItem="qJ4-se-ajd" firstAttribute="top" secondItem="3wu-Rz-zbX" secondAttribute="bottom" constant="30" id="jgC-As-ApC"/>
+                            <constraint firstItem="80I-x3-KRE" firstAttribute="top" secondItem="JMY-81-1kM" secondAttribute="bottom" constant="30" id="q5d-Us-E9h"/>
+                            <constraint firstItem="qJ4-se-ajd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sGH-G6-gPm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="angryOutlet" destination="A3e-cs-O5G" id="oBZ-Pt-mtN"/>
+                        <outlet property="happyOutlet" destination="80I-x3-KRE" id="LoZ-ix-NhV"/>
+                        <outlet property="imageOutlet" destination="JMY-81-1kM" id="hTs-I2-jzo"/>
+                        <outlet property="sadOutlet" destination="Icw-ho-hbf" id="t0r-00-RHZ"/>
+                        <outlet property="shakeMeOutlet" destination="3wu-Rz-zbX" id="nhS-6Z-1N2"/>
+                        <outlet property="showOutlet" destination="qJ4-se-ajd" id="03G-ce-0Ma"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="85"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hello" width="210" height="158"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
